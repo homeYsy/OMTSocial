@@ -7,9 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <OMTSocial/OMTSocialBase.h>
 
-NS_ASSUME_NONNULL_BEGIN
+#import <OMTSocial/OMTSocialBase.h>
 
 @interface OMTSocialFacebook : NSObject
 
@@ -19,5 +18,5 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
+
 
