@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'OMTSocial'
+  s.name             = 'OMTSocialFacebook'
   s.version          = '0.0.1'
   s.summary          = 'A short description of OMTSocial.'
 
@@ -13,8 +13,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/yangshiyu666/OMTSocial.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-
-  s.subspec 'Core' do |sp|
-     sp.source_files = 'OMTSocial/Classes/*', 'OMTSocial/Classes/Core/*'
+  s.subspec 'Facebook' do |sp|
+     sp.source_files = 'OMTSocial/Classes/Facebook/*'
+     sp.ios.vendored_frameworks = 'OMTSocial-0.0.1/ios/OMTSocial.framework'
+     # sp.dependency 'OMTSocial/Core'
   end
+
 end

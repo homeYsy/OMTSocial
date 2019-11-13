@@ -9,7 +9,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/yangshiyu666/OMTSocial'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '864745256@qq.com' => 'wyh900207@126.com' }
+  s.author           = { 'Xiaoye220' => '576934532@qq.com' }
   s.source           = { :git => 'https://github.com/yangshiyu666/OMTSocial.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
