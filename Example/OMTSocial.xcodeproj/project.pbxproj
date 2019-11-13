@@ -20,10 +20,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		64A2DCDE9477AF4F9A9CB002 /* Pods_OMTSocial_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90098F4742C0A6ED317BBB7 /* Pods_OMTSocial_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7B8B1C45B567B97A880D03F4 /* Pods_OMTSocial_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC647E22E8CE005855E4878 /* Pods_OMTSocial_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BFCE87A2FB52CDFEAD5E9440 /* libPods-OMTSocial_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B65DD4EE4FCF72ABBC47271E /* libPods-OMTSocial_Tests.a */; };
+		C883139AF3FB434A22B7C63D /* libPods-OMTSocial_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FC45F8C9A8D0BD846F05EE /* libPods-OMTSocial_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +62,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A591FD56C8469ECE3785C26 /* OMTSocial.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OMTSocial.podspec; path = ../OMTSocial.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8C96343B03C32D8B9166EDC5 /* Pods-OMTSocial_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMTSocial_Example.debug.xcconfig"; path = "Target Support Files/Pods-OMTSocial_Example/Pods-OMTSocial_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A90098F4742C0A6ED317BBB7 /* Pods_OMTSocial_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMTSocial_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCC647E22E8CE005855E4878 /* Pods_OMTSocial_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMTSocial_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65DD4EE4FCF72ABBC47271E /* libPods-OMTSocial_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OMTSocial_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FC45F8C9A8D0BD846F05EE /* libPods-OMTSocial_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OMTSocial_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FA838E47386DA0AAD9B796 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DFADDE144689F35C72E5F55A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E6BA54AC7E2F43E153AD4A8F /* Pods-OMTSocial_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMTSocial_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OMTSocial_Tests/Pods-OMTSocial_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				64A2DCDE9477AF4F9A9CB002 /* Pods_OMTSocial_Example.framework in Frameworks */,
+				C883139AF3FB434A22B7C63D /* libPods-OMTSocial_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				7B8B1C45B567B97A880D03F4 /* Pods_OMTSocial_Tests.framework in Frameworks */,
+				BFCE87A2FB52CDFEAD5E9440 /* libPods-OMTSocial_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				A90098F4742C0A6ED317BBB7 /* Pods_OMTSocial_Example.framework */,
-				BCC647E22E8CE005855E4878 /* Pods_OMTSocial_Tests.framework */,
+				C7FC45F8C9A8D0BD846F05EE /* libPods-OMTSocial_Example.a */,
+				B65DD4EE4FCF72ABBC47271E /* libPods-OMTSocial_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				85B5F070D1B4281BBFD88D3A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -315,28 +314,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		85B5F070D1B4281BBFD88D3A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OMTSocial_Example/Pods-OMTSocial_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/OMTSocial/OMTSocial.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OMTSocial.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OMTSocial_Example/Pods-OMTSocial_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C920DA57A83E1B1C0BE7FAD8 /* [CP] Check Pods Manifest.lock */ = {
