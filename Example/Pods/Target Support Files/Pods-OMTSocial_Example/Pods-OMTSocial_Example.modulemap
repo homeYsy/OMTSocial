@@ -1,0 +1,6 @@
+framework module Pods_OMTSocial_Example {
+  umbrella header "Pods-OMTSocial_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

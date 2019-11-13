@@ -1,0 +1,16 @@
+PODS:
+  - OMTSocial (0.1.0)
+
+DEPENDENCIES:
+  - OMTSocial (from `../`)
+
+EXTERNAL SOURCES:
+  OMTSocial:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OMTSocial: a450ec22b52ebd61b460b73ba1776103a4228a4d
+
+PODFILE CHECKSUM: 1c33cf4ced2873010958384c7f41716ff856cf39
+
+COCOAPODS: 1.6.1

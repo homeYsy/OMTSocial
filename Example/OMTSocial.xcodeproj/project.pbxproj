@@ -60,12 +60,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		731C47AAFB361278EC939504 /* Pods-OMTSocial_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMTSocial_Example.release.xcconfig"; path = "Target Support Files/Pods-OMTSocial_Example/Pods-OMTSocial_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A591FD56C8469ECE3785C26 /* OMTSocial.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OMTSocial.podspec; path = ../OMTSocial.podspec; sourceTree = "<group>"; };
+		8A591FD56C8469ECE3785C26 /* OMTSocial.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OMTSocial.podspec; path = ../OMTSocial.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8C96343B03C32D8B9166EDC5 /* Pods-OMTSocial_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMTSocial_Example.debug.xcconfig"; path = "Target Support Files/Pods-OMTSocial_Example/Pods-OMTSocial_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A90098F4742C0A6ED317BBB7 /* Pods_OMTSocial_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMTSocial_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC647E22E8CE005855E4878 /* Pods_OMTSocial_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMTSocial_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7FA838E47386DA0AAD9B796 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DFADDE144689F35C72E5F55A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D7FA838E47386DA0AAD9B796 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DFADDE144689F35C72E5F55A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E6BA54AC7E2F43E153AD4A8F /* Pods-OMTSocial_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMTSocial_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OMTSocial_Tests/Pods-OMTSocial_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				E6BA54AC7E2F43E153AD4A8F /* Pods-OMTSocial_Tests.debug.xcconfig */,
 				0D3FB1D65B7BFD1A66ED0AA2 /* Pods-OMTSocial_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
