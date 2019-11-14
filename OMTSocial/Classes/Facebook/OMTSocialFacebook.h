@@ -8,8 +8,9 @@
 #import <Foundation/Foundation.h>
 
 
-#import <OMTSocial/OMTSocialBase.h>
+//#import <OMTSocial/OMTSocialBase.h>
 
+#import "OMTSocial.h"
 @interface OMTSocialFacebook : NSObject
 
 - (void)facebook;
