@@ -1,10 +1,3 @@
-#
-# Be sure to run `pod lib lint OMTSocial.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'OMTSocial'
@@ -25,11 +18,11 @@ TODO: Add long description of the pod here.
   #s.source_files = 'OMTSocial/Classes/**/*'
   
   s.subspec 'Core' do |sp|
-    sp.ios.vendored_frameworks = 'OMTSocial-' + s.version.to_s + '/ios/OMTSocial.framework'
+    sp.ios.vendored_frameworks = 'OMTSocial-0.0.1/ios/OMTSocial.framework'
   end
   
   s.subspec 'Facebook' do |sp|
-     sp.ios.vendored_frameworks = 'OMTSocialFacebook-' + s.version.to_s + '/ios/OMTSocialFacebook.framework'
+     sp.ios.vendored_frameworks = 'OMTSocialFacebook-0.0.1/ios/OMTSocialFacebook.framework'
      sp.dependency 'OMTSocial/Core'
   end
   
