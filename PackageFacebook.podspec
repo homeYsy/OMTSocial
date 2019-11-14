@@ -16,7 +16,7 @@ TODO: Add long description of the pod here.
   s.frameworks = 'UIKit'
   s.subspec 'Facebook' do |sp|
      sp.source_files = 'OMTSocial/Classes/Facebook/*'
-     #sp.vendored_frameworks = 'OMTSocial-0.0.1/ios/OMTSocial.framework'
+     sp.vendored_frameworks = 'OMTSocial-0.0.1/ios/OMTSocial.framework'
      #sp.public_header_files = 'OMTSocial-0.0.1/ios/OMTSocial.framework/Headers/*.{h}'
      # sp.dependency 'OMTSocial/Core'
   end
