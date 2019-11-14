@@ -10,8 +10,6 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/yangshiyu666/OMTSocial'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '864745256@qq.com' => 'wyh900207@126.com' }
-  
-  #这里的source要写本地相对路径   如果写远程地址   就导致打包失败，尝试了好久都是失败，具体原因不明
   s.source           = { :git => '/Users/zwd/Desktop/业务组件/OMTSocial'}
 
   s.ios.deployment_target = '8.0'

@@ -1,0 +1,6 @@
+framework module OMTSocialFacebook {
+  umbrella header "OMTSocialFacebook.h"
+
+  export *
+  module * { export * }
+}

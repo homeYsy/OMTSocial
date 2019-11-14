@@ -10,27 +10,31 @@ Pod::Spec.new do |s|
   s.name             = 'OMTSocial'
   s.version          = '0.0.1'
   s.summary          = 'A short description of OMTSocial.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
-  s.homepage         = 'https://github.com/864745256@qq.com/OMTSocial'
+  s.homepage         = 'https://github.com/yangshiyu666/OMTSocial'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '864745256@qq.com' => 'wyh900207@126.com' }
-  s.source           = { :git => 'https://github.com/864745256@qq.com/OMTSocial.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yangshiyu666/OMTSocial.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'OMTSocial/Classes/**/*'
+  #s.source_files = 'OMTSocial/Classes/**/*'
+  
+  s.subspec 'Core' do |sp|
+    sp.ios.vendored_frameworks = 'OMTSocial-' + s.version.to_s + '/ios/OMTSocial.framework'
+  end
+  
+  s.subspec 'Facebook' do |sp|
+     sp.ios.vendored_frameworks = 'OMTSocialFacebook-' + s.version.to_s + '/ios/OMTSocialFacebook.framework'
+     sp.dependency 'OMTSocial/Core'
+  end
+  
+  
+  
   
   # s.resource_bundles = {
   #   'OMTSocial' => ['OMTSocial/Assets/*.png']
