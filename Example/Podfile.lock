@@ -1,5 +1,10 @@
 PODS:
-  - OMTSocial (0.0.1)
+  - OMTSocial (0.0.1):
+    - OMTSocial/Core (= 0.0.1)
+    - OMTSocial/Facebook (= 0.0.1)
+  - OMTSocial/Core (0.0.1)
+  - OMTSocial/Facebook (0.0.1):
+    - OMTSocial/Core
 
 DEPENDENCIES:
   - OMTSocial (from `../`)
@@ -9,8 +14,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OMTSocial: b29034c4f0f02ec39bc21e73be1fa8acb2d13e68
+  OMTSocial: 32cb63002a30f372d6401bbf76e5ff643aae976f
 
-PODFILE CHECKSUM: 87c533a98e0ed8b9da711bbdcc9632b13c45293c
+PODFILE CHECKSUM: 09f07833ca4412888c3b95e527fee67c6589858c
 
 COCOAPODS: 1.6.1

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EF440E131AB68723A03A01D /* libPods-OMTSocial_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 335D773BA8AA86EBF144453A /* libPods-OMTSocial_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,10 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		64929E28D449A5038674CDDF /* libPods-OMTSocial_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9D66A3DCD51FA13BA0D2C9 /* libPods-OMTSocial_Example.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		F63B5C14E78B79CD47C0A2C4 /* libPods-OMTSocial_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F578B747A3C7888BDAA015 /* libPods-OMTSocial_Tests.a */; };
+		ED6821FCCB5BAD6314CC4AD6 /* libPods-OMTSocial_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A91D37F6C9B14CA9C3AD7F0 /* libPods-OMTSocial_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C9D66A3DCD51FA13BA0D2C9 /* libPods-OMTSocial_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OMTSocial_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A91D37F6C9B14CA9C3AD7F0 /* libPods-OMTSocial_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OMTSocial_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3FB1D65B7BFD1A66ED0AA2 /* Pods-OMTSocial_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMTSocial_Tests.release.xcconfig"; path = "Target Support Files/Pods-OMTSocial_Tests/Pods-OMTSocial_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		52F578B747A3C7888BDAA015 /* libPods-OMTSocial_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OMTSocial_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		335D773BA8AA86EBF144453A /* libPods-OMTSocial_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OMTSocial_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* OMTSocial_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMTSocial_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				64929E28D449A5038674CDDF /* libPods-OMTSocial_Example.a in Frameworks */,
+				1EF440E131AB68723A03A01D /* libPods-OMTSocial_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				F63B5C14E78B79CD47C0A2C4 /* libPods-OMTSocial_Tests.a in Frameworks */,
+				ED6821FCCB5BAD6314CC4AD6 /* libPods-OMTSocial_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0C9D66A3DCD51FA13BA0D2C9 /* libPods-OMTSocial_Example.a */,
-				52F578B747A3C7888BDAA015 /* libPods-OMTSocial_Tests.a */,
+				335D773BA8AA86EBF144453A /* libPods-OMTSocial_Example.a */,
+				0A91D37F6C9B14CA9C3AD7F0 /* libPods-OMTSocial_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

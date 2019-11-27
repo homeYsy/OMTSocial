@@ -6,21 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		82CB82D4C40839EFB95B281F6657D249 /* OMTSocial */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 11BEE651E06620CB918D03A18D8BB33A /* Build configuration list for PBXAggregateTarget "OMTSocial" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = OMTSocial;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		1B8666EA626A64F5BA58E0435415BCD5 /* Target_Facebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6E0FE41CE318B075B12C0CC110DB67 /* Target_Facebook.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3E554408BB15136D9A49271869715BC8 /* OMTSocialBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 547BB8F9E905480BB19E64396EF46837 /* OMTSocialBase.m */; };
-		482D3A8D501C46B011D0095D14240E31 /* Target_MediatorError.m in Sources */ = {isa = PBXBuildFile; fileRef = E068DAB34E57B8A4AE15DE874A4691E7 /* Target_MediatorError.m */; };
-		51A67516289C6BC8D4AD0ABAD48E434D /* OMTSocialBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 359CD88FE27BA612741DC57C050FBD12 /* OMTSocialBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5EAF7BA455265AE0EABAE3ED4E575053 /* OMTSocial.h in Headers */ = {isa = PBXBuildFile; fileRef = 91237A4C7CA0CFFD0B75D448047607A2 /* OMTSocial.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7561CE932D63D09151FBFC1BF7A533FB /* Target_MediatorError.h in Headers */ = {isa = PBXBuildFile; fileRef = E8740BC5DA0C14891589435242466DF3 /* Target_MediatorError.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8D40861EC3F368EDFE28C0EFA60D62B3 /* OMTSocialFacebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F79625138FF142CBD65690C56AE3BA /* OMTSocialFacebook.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		91E4E48C04970A5081E03E6D3B90756E /* Pods-OMTSocial_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9700DD99CF20D6E62DF9FA4AF2AA8833 /* Pods-OMTSocial_Example-dummy.m */; };
-		AD038C018DBFB67C138736BACD4AA8A3 /* OMTSocialFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0828DD2745CFF6694E5F9691E3E8A8 /* OMTSocialFacebook.m */; };
-		B343B353F5D9F35A2170564A88D76F86 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = F8717F2BA3E1B1D6DCE5C9985DC85208 /* CTMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B72747528273958A2DFFB0391A8D7070 /* OMTSocial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF0313D99248A6EDE0080BB57A501E /* OMTSocial-dummy.m */; };
 		BDBBB7A437881266341C0CE2FD0F328B /* Pods-OMTSocial_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 531980497F705DF9A5501420AA513953 /* Pods-OMTSocial_Tests-dummy.m */; };
-		C4BAB31542E7CC5EF13A5B98442F2FDC /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 918E466D38DB37BB767D97C0718B1037 /* CTMediator.m */; };
-		E340BCBFF9E4C3677879D6D2174376DF /* Target_Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3C80EF6E5C944116AC6EA709269FD8 /* Target_Facebook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,52 +35,33 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 87C9AE69E594BFFCAC885257A8D0FEBE;
+			remoteGlobalIDString = 82CB82D4C40839EFB95B281F6657D249;
 			remoteInfo = OMTSocial;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02EF0313D99248A6EDE0080BB57A501E /* OMTSocial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OMTSocial-dummy.m"; sourceTree = "<group>"; };
-		1FFF0C001B5DC02AB22575DEEDBA2315 /* libOMTSocial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libOMTSocial.a; path = libOMTSocial.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		359CD88FE27BA612741DC57C050FBD12 /* OMTSocialBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OMTSocialBase.h; sourceTree = "<group>"; };
-		470171F5E62277098D67C073599FC15A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4A6E0FE41CE318B075B12C0CC110DB67 /* Target_Facebook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_Facebook.h; sourceTree = "<group>"; };
-		4D0828DD2745CFF6694E5F9691E3E8A8 /* OMTSocialFacebook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OMTSocialFacebook.m; sourceTree = "<group>"; };
+		05DA7B88C3D6B78E41F4AFBDB34BBE41 /* OMTSocial.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OMTSocial.xcconfig; sourceTree = "<group>"; };
+		1632B403769374852F73E8C112565C4D /* libPods-OMTSocial_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OMTSocial_Tests.a"; path = "libPods-OMTSocial_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		186F736C28558D81907558CCF3D3C360 /* libPods-OMTSocial_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OMTSocial_Example.a"; path = "libPods-OMTSocial_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD79686FBD40A32557FD839F27804D3 /* Pods-OMTSocial_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OMTSocial_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		531980497F705DF9A5501420AA513953 /* Pods-OMTSocial_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OMTSocial_Tests-dummy.m"; sourceTree = "<group>"; };
-		547BB8F9E905480BB19E64396EF46837 /* OMTSocialBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OMTSocialBase.m; sourceTree = "<group>"; };
-		59306A07AA07CE5CA412A54497B9A071 /* OMTSocial.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OMTSocial.xcconfig; sourceTree = "<group>"; };
 		5C4F85655F9DB848E2A9F2A774BAF650 /* Pods-OMTSocial_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OMTSocial_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5E0FD6BA62F6E604D39019B66C7113D3 /* libPods-OMTSocial_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OMTSocial_Tests.a"; path = "libPods-OMTSocial_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6780FB3D0D463CE7530B467612806A48 /* OMTSocialFacebook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OMTSocialFacebook.framework; path = "OMTSocialFacebook-0.0.1/ios/OMTSocialFacebook.framework"; sourceTree = "<group>"; };
 		68202071B24037D30D42203DE5F1E668 /* Pods-OMTSocial_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OMTSocial_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		73F79625138FF142CBD65690C56AE3BA /* OMTSocialFacebook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OMTSocialFacebook.h; sourceTree = "<group>"; };
-		8CAB5CDD1E28CAD994C9E69F1BECCE62 /* OMTSocial-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OMTSocial-prefix.pch"; sourceTree = "<group>"; };
-		91237A4C7CA0CFFD0B75D448047607A2 /* OMTSocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMTSocial.h; path = OMTSocial/Classes/OMTSocial.h; sourceTree = "<group>"; };
-		918E466D38DB37BB767D97C0718B1037 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		7C2889F0463F0F1674CD9E22DD44FA5B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7EECCA81EFEA5FAEAC2D5096E72F76A2 /* OMTSocial.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OMTSocial.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9700DD99CF20D6E62DF9FA4AF2AA8833 /* Pods-OMTSocial_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OMTSocial_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7D4C8A69EC0E316B316D36AE55BA919 /* OMTSocial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OMTSocial.framework; path = "OMTSocial-0.0.1/ios/OMTSocial.framework"; sourceTree = "<group>"; };
 		AC676770E647CF0135FEA0144FC504BA /* Pods-OMTSocial_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OMTSocial_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D4046255F4AB75B63CD712507F85E856 /* libPods-OMTSocial_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OMTSocial_Example.a"; path = "libPods-OMTSocial_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB029D77EA90B5E655B2CE5425F5011 /* Pods-OMTSocial_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OMTSocial_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E068DAB34E57B8A4AE15DE874A4691E7 /* Target_MediatorError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_MediatorError.m; sourceTree = "<group>"; };
 		E5F21EB9134FF78D41F0B500C17FCB44 /* Pods-OMTSocial_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OMTSocial_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E8740BC5DA0C14891589435242466DF3 /* Target_MediatorError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_MediatorError.h; sourceTree = "<group>"; };
-		ED3C80EF6E5C944116AC6EA709269FD8 /* Target_Facebook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_Facebook.m; sourceTree = "<group>"; };
 		F1DD5BE426581BD24EFC983D38DE3A1D /* Pods-OMTSocial_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OMTSocial_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F8717F2BA3E1B1D6DCE5C9985DC85208 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
 		F9C39DDB2B91C5B095B216AE086C0382 /* Pods-OMTSocial_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OMTSocial_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FD96A4DCE97365DE3BEBE217C2FA6F59 /* OMTSocial.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OMTSocial.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6C3AF25A4D153F7648F5F9666978BEAF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		780789F8CEE770C0B9DF43DD28036A94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,33 +92,37 @@
 			path = "Target Support Files/Pods-OMTSocial_Tests";
 			sourceTree = "<group>";
 		};
-		05FB5ECEB44C65BC74A6C241EF0069E7 /* Facebook */ = {
+		0EE83311C4002E1BD770C5E008928D80 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				73F79625138FF142CBD65690C56AE3BA /* OMTSocialFacebook.h */,
-				4D0828DD2745CFF6694E5F9691E3E8A8 /* OMTSocialFacebook.m */,
-				4A6E0FE41CE318B075B12C0CC110DB67 /* Target_Facebook.h */,
-				ED3C80EF6E5C944116AC6EA709269FD8 /* Target_Facebook.m */,
-			);
-			name = Facebook;
-			path = OMTSocial/Classes/Facebook;
-			sourceTree = "<group>";
-		};
-		1E044EE68439AC5C2BFECF56A9869304 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				470171F5E62277098D67C073599FC15A /* LICENSE */,
-				FD96A4DCE97365DE3BEBE217C2FA6F59 /* OMTSocial.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		3A2CF6EF47B92F4458484C71159B40E1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8A69FF784CB1794735590D0987766468 /* OMTSocial */,
+				69D9671D42C37AD1907386C86A7C08A0 /* OMTSocial */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		10082EE1172E02FA21D50E2EE99686DE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C78E15D5857D5A3A9070D225E2696C49 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		21FC2E990C526D5FA0C692EBB12EC238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6780FB3D0D463CE7530B467612806A48 /* OMTSocialFacebook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A872C657715D75AEA53536205AD0D02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186F736C28558D81907558CCF3D3C360 /* libPods-OMTSocial_Example.a */,
+				1632B403769374852F73E8C112565C4D /* libPods-OMTSocial_Tests.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		3EF1FFC72211050FDF0272E4083FE812 /* Pods-OMTSocial_Example */ = {
@@ -153,42 +138,50 @@
 			path = "Target Support Files/Pods-OMTSocial_Example";
 			sourceTree = "<group>";
 		};
-		6C4B6498A6F9C9C3B3AA2C023F4DB96C /* Core */ = {
+		69D9671D42C37AD1907386C86A7C08A0 /* OMTSocial */ = {
 			isa = PBXGroup;
 			children = (
-				F8717F2BA3E1B1D6DCE5C9985DC85208 /* CTMediator.h */,
-				918E466D38DB37BB767D97C0718B1037 /* CTMediator.m */,
-				359CD88FE27BA612741DC57C050FBD12 /* OMTSocialBase.h */,
-				547BB8F9E905480BB19E64396EF46837 /* OMTSocialBase.m */,
-				E8740BC5DA0C14891589435242466DF3 /* Target_MediatorError.h */,
-				E068DAB34E57B8A4AE15DE874A4691E7 /* Target_MediatorError.m */,
-			);
-			name = Core;
-			path = OMTSocial/Classes/Core;
-			sourceTree = "<group>";
-		};
-		8A69FF784CB1794735590D0987766468 /* OMTSocial */ = {
-			isa = PBXGroup;
-			children = (
-				91237A4C7CA0CFFD0B75D448047607A2 /* OMTSocial.h */,
-				6C4B6498A6F9C9C3B3AA2C023F4DB96C /* Core */,
-				05FB5ECEB44C65BC74A6C241EF0069E7 /* Facebook */,
-				1E044EE68439AC5C2BFECF56A9869304 /* Pod */,
-				AC417FF4BF129C09A65B0B322298007F /* Support Files */,
+				10082EE1172E02FA21D50E2EE99686DE /* Core */,
+				B919BD232D0833BDDDD45653EE124EF0 /* Facebook */,
+				6C64DA362A87E86C3BA78E9B8771665A /* Pod */,
+				9D08FCB4FF933012719582BCD20C8BC7 /* Support Files */,
 			);
 			name = OMTSocial;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		AC417FF4BF129C09A65B0B322298007F /* Support Files */ = {
+		6C64DA362A87E86C3BA78E9B8771665A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				59306A07AA07CE5CA412A54497B9A071 /* OMTSocial.xcconfig */,
-				02EF0313D99248A6EDE0080BB57A501E /* OMTSocial-dummy.m */,
-				8CAB5CDD1E28CAD994C9E69F1BECCE62 /* OMTSocial-prefix.pch */,
+				7C2889F0463F0F1674CD9E22DD44FA5B /* LICENSE */,
+				7EECCA81EFEA5FAEAC2D5096E72F76A2 /* OMTSocial.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9D08FCB4FF933012719582BCD20C8BC7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05DA7B88C3D6B78E41F4AFBDB34BBE41 /* OMTSocial.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/OMTSocial";
+			sourceTree = "<group>";
+		};
+		B919BD232D0833BDDDD45653EE124EF0 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				21FC2E990C526D5FA0C692EBB12EC238 /* Frameworks */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
+		C78E15D5857D5A3A9070D225E2696C49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D4C8A69EC0E316B316D36AE55BA919 /* OMTSocial.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CEFA86C937271ECF2DC782FDD7CA2FAB /* Targets Support Files */ = {
@@ -204,21 +197,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3A2CF6EF47B92F4458484C71159B40E1 /* Development Pods */,
+				0EE83311C4002E1BD770C5E008928D80 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				D25C038E0968F293ACF4131C899F0AB3 /* Products */,
+				3A872C657715D75AEA53536205AD0D02 /* Products */,
 				CEFA86C937271ECF2DC782FDD7CA2FAB /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D25C038E0968F293ACF4131C899F0AB3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1FFF0C001B5DC02AB22575DEEDBA2315 /* libOMTSocial.a */,
-				D4046255F4AB75B63CD712507F85E856 /* libPods-OMTSocial_Example.a */,
-				5E0FD6BA62F6E604D39019B66C7113D3 /* libPods-OMTSocial_Tests.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -245,39 +228,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A09757B449C3794C6F79A6DD1BB6989B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B343B353F5D9F35A2170564A88D76F86 /* CTMediator.h in Headers */,
-				5EAF7BA455265AE0EABAE3ED4E575053 /* OMTSocial.h in Headers */,
-				51A67516289C6BC8D4AD0ABAD48E434D /* OMTSocialBase.h in Headers */,
-				8D40861EC3F368EDFE28C0EFA60D62B3 /* OMTSocialFacebook.h in Headers */,
-				1B8666EA626A64F5BA58E0435415BCD5 /* Target_Facebook.h in Headers */,
-				7561CE932D63D09151FBFC1BF7A533FB /* Target_MediatorError.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		87C9AE69E594BFFCAC885257A8D0FEBE /* OMTSocial */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA3F37E71B964C65F7634990F65F426C /* Build configuration list for PBXNativeTarget "OMTSocial" */;
-			buildPhases = (
-				A09757B449C3794C6F79A6DD1BB6989B /* Headers */,
-				3D16C22B0B5747909CBB2B601ABBE3E9 /* Sources */,
-				6C3AF25A4D153F7648F5F9666978BEAF /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = OMTSocial;
-			productName = OMTSocial;
-			productReference = 1FFF0C001B5DC02AB22575DEEDBA2315 /* libOMTSocial.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		8E178BFDB786BA89C6D305B20C45A9BF /* Pods-OMTSocial_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 968B11B943EC975CEFC0F8CABEB4E61A /* Build configuration list for PBXNativeTarget "Pods-OMTSocial_Tests" */;
@@ -293,7 +246,7 @@
 			);
 			name = "Pods-OMTSocial_Tests";
 			productName = "Pods-OMTSocial_Tests";
-			productReference = 5E0FD6BA62F6E604D39019B66C7113D3 /* libPods-OMTSocial_Tests.a */;
+			productReference = 1632B403769374852F73E8C112565C4D /* libPods-OMTSocial_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		B02A47D298B80E8E6FE8DD882FAC5D46 /* Pods-OMTSocial_Example */ = {
@@ -311,7 +264,7 @@
 			);
 			name = "Pods-OMTSocial_Example";
 			productName = "Pods-OMTSocial_Example";
-			productReference = D4046255F4AB75B63CD712507F85E856 /* libPods-OMTSocial_Example.a */;
+			productReference = 186F736C28558D81907558CCF3D3C360 /* libPods-OMTSocial_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -331,11 +284,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D25C038E0968F293ACF4131C899F0AB3 /* Products */;
+			productRefGroup = 3A872C657715D75AEA53536205AD0D02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				87C9AE69E594BFFCAC885257A8D0FEBE /* OMTSocial */,
+				82CB82D4C40839EFB95B281F6657D249 /* OMTSocial */,
 				B02A47D298B80E8E6FE8DD882FAC5D46 /* Pods-OMTSocial_Example */,
 				8E178BFDB786BA89C6D305B20C45A9BF /* Pods-OMTSocial_Tests */,
 			);
@@ -343,19 +296,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3D16C22B0B5747909CBB2B601ABBE3E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4BAB31542E7CC5EF13A5B98442F2FDC /* CTMediator.m in Sources */,
-				B72747528273958A2DFFB0391A8D7070 /* OMTSocial-dummy.m in Sources */,
-				3E554408BB15136D9A49271869715BC8 /* OMTSocialBase.m in Sources */,
-				AD038C018DBFB67C138736BACD4AA8A3 /* OMTSocialFacebook.m in Sources */,
-				E340BCBFF9E4C3677879D6D2174376DF /* Target_Facebook.m in Sources */,
-				482D3A8D501C46B011D0095D14240E31 /* Target_MediatorError.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D6EE91F01B15DF46CB4B54F89A485AD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,7 +318,7 @@
 		3855B4B65056E473EECF738747B5686C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OMTSocial;
-			target = 87C9AE69E594BFFCAC885257A8D0FEBE /* OMTSocial */;
+			target = 82CB82D4C40839EFB95B281F6657D249 /* OMTSocial */;
 			targetProxy = F517B94F0900A12C8C668426BFFEC87E /* PBXContainerItemProxy */;
 		};
 		5B7F11CE3167AD492E0F2316A7CD0A7F /* PBXTargetDependency */ = {
@@ -450,30 +390,6 @@
 			};
 			name = Release;
 		};
-		07ACE909A195AE6380F7F4E90E284ED9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59306A07AA07CE5CA412A54497B9A071 /* OMTSocial.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/OMTSocial/OMTSocial-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = OMTSocial;
-				PRODUCT_NAME = OMTSocial;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -537,31 +453,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		573EC2734D6288B86CF417E884C947D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59306A07AA07CE5CA412A54497B9A071 /* OMTSocial.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/OMTSocial/OMTSocial-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = OMTSocial;
-				PRODUCT_NAME = OMTSocial;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		7C432FD297458204703DAD19BDFF30A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -628,6 +519,19 @@
 			};
 			name = Release;
 		};
+		B127795EE438E6E7A9115351F791D8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05DA7B88C3D6B78E41F4AFBDB34BBE41 /* OMTSocial.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		B6F43A1181976057711BD8D906473F26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AC676770E647CF0135FEA0144FC504BA /* Pods-OMTSocial_Tests.debug.xcconfig */;
@@ -649,9 +553,32 @@
 			};
 			name = Debug;
 		};
+		C877364A3C1481965CBA21D058820566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05DA7B88C3D6B78E41F4AFBDB34BBE41 /* OMTSocial.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		11BEE651E06620CB918D03A18D8BB33A /* Build configuration list for PBXAggregateTarget "OMTSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B127795EE438E6E7A9115351F791D8A9 /* Debug */,
+				C877364A3C1481965CBA21D058820566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -675,15 +602,6 @@
 			buildConfigurations = (
 				B6F43A1181976057711BD8D906473F26 /* Debug */,
 				9356376E8A020EE7E212D72660A0D074 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA3F37E71B964C65F7634990F65F426C /* Build configuration list for PBXNativeTarget "OMTSocial" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				07ACE909A195AE6380F7F4E90E284ED9 /* Debug */,
-				573EC2734D6288B86CF417E884C947D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
